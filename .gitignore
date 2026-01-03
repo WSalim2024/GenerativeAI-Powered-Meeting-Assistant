@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+my_env/
+__pycache__/
+*.pyc
+
+# AI Models (They are too big for Git)
+models/
+*.bin
+*.pt
+*.onnx
+
+# Local Audio & Temp Files
+*.mp3
+*.wav
+downloaded_audio.mp3
+
+# PyCharm settings
+.idea/
